@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ApiCall"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded">
     <Grid>
-        
+        <Button x:Name="btnPrevious" Content="Previous comic" HorizontalAlignment="Left" VerticalAlignment="Top" Width="114" Margin="25,16,0,0" Click="btnPrevious_Click" />
+        <Button x:Name="btnSunInfo" Content="Show Sunrise-SunSet Info" HorizontalAlignment="Left" VerticalAlignment="Top" Width="189" Margin="279,16,0,0" Click="btnSunInfo_Click" />
+        <Button x:Name="btnNext" Content="Next Comic" HorizontalAlignment="Left" VerticalAlignment="Top" Width="129" Margin="144,16,0,0" RenderTransformOrigin="0.839,0.202" Click="btnNext_Click"/>
+        <Image x:Name="comicImage" HorizontalAlignment="Left" Height="223" VerticalAlignment="Top" Width="450" Margin="30,62,0,0"/>
+        <Label x:Name="lblLoading" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="25,36,0,0"/>
+
     </Grid>
 </Window>
