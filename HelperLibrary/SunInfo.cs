@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 
 namespace HelperLibrary
 {
+    
+    //sun info
     public class SunInfo
     {
         public DateTime Sunrise { get; set; }
