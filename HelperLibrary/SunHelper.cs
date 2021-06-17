@@ -9,6 +9,7 @@ namespace HelperLibrary
 {
     public class SunHelper
     {
+        //just to simulate conflict
         private string baseUrl = "https://api.sunrise-sunset.org/json?";
         public SunHelper()
         {
